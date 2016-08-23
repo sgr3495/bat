@@ -1,0 +1,42 @@
+#bat{
+  position: relative;
+}
+
+#pupilleft, #pupilright {
+  position: relative;
+  background: #000000;
+  border-radius: 50%;
+}
+
+#eyeleft, #eyeright {
+  position: absolute;
+  background: #FFFFFF;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+#pupilleft {
+  width: 18px;
+  height: 18px;
+}
+
+#eyeleft {
+  width: 45px;
+  height: 45px;
+  /* calc =  bat size - position - half width of the eye */
+  left: calc(550px - 25px - 17px);
+  top: 135px;
+}
+
+#pupilright{
+  width: 18px;
+  height: 18px;
+}
+
+#eyeright {
+  width: 45px;
+  height: 45px;
+  /* calc =  center + position - half width of the eye */
+  left: calc(550px + 25px - 17px);
+  top: 135px;
+}

@@ -1,0 +1,30 @@
+/*making the moon */
+#moon {
+  z-index: -1;
+  position: absolute;
+  left: 5%;
+  top: 0%;
+  width: 400px;
+  height: 400px;
+  background: yellow;
+  /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(#fefcea 5%, #f1da96 50%, rgba(241, 218, 200, 0) 60%);
+  /* Safari 5.1-6.0 */
+  background: -o-radial-gradient(#fefcea 5%, #f1da96 rgba(241, 218, 200, 0) 60%);
+  /* For Opera 11.6-12.0 */
+  background: -moz-radial-gradient(#fefcea 5%, #f19636 rgba(241, 218, 200, 0) 60%);
+  /* For Firefox 3.6-15 */
+  background: radial-gradient(#fefcea 5%, #f1da96 rgba(241, 218, 200, 0) 60%);
+  /* Standard syntax */
+  animation: moveMoon 420s; }
+
+/*move the moon */
+@keyframes moveMoon {
+  from {
+    left: -300px;
+    top: 100%; }
+  to {
+    left: 5%;
+    top: 0%; } }
+
+/*# sourceMappingURL=moon.css.map */

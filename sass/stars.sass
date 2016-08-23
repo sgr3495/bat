@@ -1,0 +1,47 @@
+/*making the stars
+// n is number of stars required
+@function multiple-box-shadow ($n)
+  $value: '#{random(2000)}px #{random(2000)}px #FFF'
+  @for $i from 2 through $n
+    $value: '#{$value} , #{random(2000)}px #{random(2000)}px #FFF'
+
+  @return unquote($value)
+
+$shadows-small:  multiple-box-shadow(100)
+$shadows-medium: multiple-box-shadow(50)
+$shadows-big:    multiple-box-shadow(30)
+
+html
+  height: 100%
+  background: #040B14
+
+#stars
+  width: 1px
+  height: 1px
+  background: transparent
+  box-shadow: $shadows-small
+  animation: moveStar 250s linear infinite
+
+
+
+#stars2
+  width: 2px
+  height: 2px
+  background: transparent
+  box-shadow: $shadows-medium
+  animation: moveStar 300s linear infinite
+
+
+
+#stars3
+  width: 3px
+  height: 3px
+  background: transparent
+  box-shadow: $shadows-big
+  animation: moveStar 350s linear infinite
+
+@keyframes moveStar
+  from
+    transform: translateY(0px)
+  to
+    transform: translateY(-2000px)

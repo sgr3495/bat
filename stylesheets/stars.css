@@ -1,0 +1,33 @@
+/*making the stars */
+html {
+  height: 100%;
+  background: #040B14; }
+
+#stars {
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: 1545px 1713px #FFF , 433px 204px #FFF , 1963px 1569px #FFF , 1645px 1703px #FFF , 1637px 811px #FFF , 1461px 345px #FFF , 664px 827px #FFF , 1379px 142px #FFF , 1974px 1980px #FFF , 89px 566px #FFF , 1070px 1585px #FFF , 208px 683px #FFF , 1013px 943px #FFF , 1157px 1619px #FFF , 1568px 1967px #FFF , 843px 1277px #FFF , 1812px 1697px #FFF , 945px 757px #FFF , 1421px 270px #FFF , 822px 1181px #FFF , 1120px 683px #FFF , 1372px 682px #FFF , 1593px 57px #FFF , 514px 1236px #FFF , 312px 1570px #FFF , 1679px 1913px #FFF , 3px 382px #FFF , 1338px 88px #FFF , 586px 1602px #FFF , 1510px 957px #FFF , 1431px 220px #FFF , 1919px 21px #FFF , 1231px 636px #FFF , 1506px 976px #FFF , 680px 880px #FFF , 1138px 1538px #FFF , 373px 1762px #FFF , 1970px 648px #FFF , 571px 1437px #FFF , 121px 665px #FFF , 820px 715px #FFF , 31px 796px #FFF , 7px 218px #FFF , 1347px 1337px #FFF , 1135px 1696px #FFF , 974px 1727px #FFF , 830px 1590px #FFF , 1931px 1736px #FFF , 204px 1222px #FFF , 1763px 1563px #FFF , 986px 1335px #FFF , 634px 1954px #FFF , 314px 909px #FFF , 174px 1670px #FFF , 1090px 1614px #FFF , 1559px 1269px #FFF , 353px 33px #FFF , 884px 1406px #FFF , 1370px 472px #FFF , 363px 1968px #FFF , 1474px 1199px #FFF , 941px 1445px #FFF , 1246px 918px #FFF , 75px 257px #FFF , 1259px 905px #FFF , 1178px 641px #FFF , 506px 1743px #FFF , 1897px 91px #FFF , 1534px 1290px #FFF , 1955px 113px #FFF , 1959px 286px #FFF , 121px 772px #FFF , 994px 1814px #FFF , 454px 1471px #FFF , 1760px 341px #FFF , 801px 1921px #FFF , 1930px 1152px #FFF , 131px 262px #FFF , 1656px 1259px #FFF , 554px 281px #FFF , 908px 400px #FFF , 1988px 378px #FFF , 1838px 1531px #FFF , 282px 562px #FFF , 582px 137px #FFF , 1734px 1463px #FFF , 1035px 1667px #FFF , 27px 1046px #FFF , 318px 1424px #FFF , 1614px 666px #FFF , 957px 197px #FFF , 923px 1180px #FFF , 736px 1401px #FFF , 1457px 1274px #FFF , 939px 1663px #FFF , 525px 1896px #FFF , 1175px 560px #FFF , 96px 1324px #FFF , 1434px 420px #FFF , 1170px 587px #FFF;
+  animation: moveStar 250s linear infinite; }
+
+#stars2 {
+  width: 2px;
+  height: 2px;
+  background: transparent;
+  box-shadow: 887px 1774px #FFF , 1699px 362px #FFF , 696px 695px #FFF , 1327px 1976px #FFF , 1123px 674px #FFF , 1255px 1115px #FFF , 548px 1451px #FFF , 146px 120px #FFF , 338px 577px #FFF , 687px 964px #FFF , 1950px 1311px #FFF , 179px 1394px #FFF , 251px 1941px #FFF , 1649px 330px #FFF , 591px 150px #FFF , 259px 1218px #FFF , 765px 522px #FFF , 888px 1352px #FFF , 919px 1343px #FFF , 1082px 1530px #FFF , 870px 173px #FFF , 1908px 1623px #FFF , 1351px 866px #FFF , 1262px 1300px #FFF , 892px 56px #FFF , 818px 310px #FFF , 718px 57px #FFF , 498px 955px #FFF , 1713px 1991px #FFF , 1641px 300px #FFF , 1772px 1869px #FFF , 463px 1640px #FFF , 319px 826px #FFF , 404px 616px #FFF , 641px 616px #FFF , 1118px 1195px #FFF , 1455px 561px #FFF , 434px 492px #FFF , 441px 1524px #FFF , 62px 1003px #FFF , 325px 1500px #FFF , 1881px 83px #FFF , 1516px 1299px #FFF , 1765px 633px #FFF , 1028px 199px #FFF , 815px 104px #FFF , 282px 1284px #FFF , 225px 138px #FFF , 1179px 1989px #FFF , 719px 1444px #FFF;
+  animation: moveStar 300s linear infinite; }
+
+#stars3 {
+  width: 3px;
+  height: 3px;
+  background: transparent;
+  box-shadow: 1877px 1438px #FFF , 945px 190px #FFF , 1916px 1933px #FFF , 136px 1871px #FFF , 880px 1684px #FFF , 1986px 346px #FFF , 1432px 1700px #FFF , 1668px 1901px #FFF , 1112px 550px #FFF , 469px 87px #FFF , 165px 1593px #FFF , 73px 952px #FFF , 1238px 923px #FFF , 158px 1850px #FFF , 1109px 1935px #FFF , 629px 1339px #FFF , 1251px 1972px #FFF , 35px 1722px #FFF , 1977px 234px #FFF , 809px 336px #FFF , 1672px 1926px #FFF , 1529px 1660px #FFF , 1989px 1533px #FFF , 771px 531px #FFF , 1011px 1937px #FFF , 976px 1926px #FFF , 101px 1123px #FFF , 681px 708px #FFF , 1017px 1332px #FFF , 549px 695px #FFF;
+  animation: moveStar 350s linear infinite; }
+
+@keyframes moveStar {
+  from {
+    transform: translateY(0px); }
+  to {
+    transform: translateY(-2000px); } }
+
+/*# sourceMappingURL=stars.css.map */
