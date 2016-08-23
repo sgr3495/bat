@@ -16,15 +16,21 @@
   /* For Firefox 3.6-15 */
   background: radial-gradient(#fefcea 5%, #f1da96 rgba(241, 218, 200, 0) 60%);
   /* Standard syntax */
-  animation: moveMoon 420s; }
+  animation: moveMoon 500s infinite; }
 
 /*move the moon */
 @keyframes moveMoon {
-  from {
+  0% {
     left: -300px;
     top: 100%; }
-  to {
+  30% {
     left: 5%;
-    top: 0%; } }
+    top: 0%; }
+  60% {
+    left: 82%;
+    top: 0%; }
+  100% {
+    left: 100%;
+    top: 100%; } }
 
 /*# sourceMappingURL=moon.css.map */

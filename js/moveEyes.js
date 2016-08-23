@@ -37,5 +37,5 @@ var DrawEye = function(eyecontainer, pupil, eyeposx, eyeposy){
   }, 1);
 };
 
-var pariseye1 = new DrawEye("#eyeleft", "#pupilleft", (window.innerWidth/2) - 25 - 17, 72);
-var pariseye2 = new DrawEye("#eyeright", "#pupilright", (window.innerWidth/2) + 25 - 17, 72);
+var pariseye1 = new DrawEye("#eyeleft", "#pupilleft", (window.innerWidth/2) - 25 - 17, 335);
+var pariseye2 = new DrawEye("#eyeright", "#pupilright", (window.innerWidth/2) + 25 - 17, 335);
